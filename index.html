@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Carousel</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="style.css">
+        <script  src="script.js"></script>
+    </head>
+    <body>
+        <div id="main">
+            <div class="slider"> 
+                <img src="flower.jpg"  >
+                 
+            </div>
+            <div class="slider">
+                <img src="tree.jpg"  >
+                 
+            </div>
+            <div class="slider ">
+                <img src="baby.jpg"  >
+                 
+            </div>
+            <div class="slider ">
+                <img src="lion.jpg"  >
+
+            </div>
+            <a class="prev" onclick="changeSlides(-1)">&#10094</a>
+            <a class="next" onclick="changeSlides(1)">&#10095</a>
+        </div>
+        <div id="radio">
+            <button class="dot" onclick="thisSlide(1)">1</button>
+            <button class="dot" onclick="thisSlide(2)">2</button>
+            <button class="dot" onclick="thisSlide(3)">3</button>
+            <button class="dot" onclick="thisSlide(4)">4</button>
+        </div>
+    </body>
+</html>
